@@ -5,14 +5,23 @@
     /* background-color: #ccc; */
 }
 #chaofan .fix{
-    width:110px;
-    height:200px;
-    border:1px solid red; 
+    width:48px;
+    height:145px;
+    position:fixed;
+    top:50%; 
+    right:0;
 }
 .fix1{
     width:48px;
     height:48px;
-}    
+}   
+.fix1:hover .img11{
+    display: none;
+} 
+.fix1:hover .img12{
+    display: inline-block;
+}
+
 .fix2{
     width:48px;
     height:48px;
