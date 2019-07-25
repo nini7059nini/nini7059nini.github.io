@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>韦诗妮-卧龙控股</title>
+<style>
+    *{
+        margin:0;
+        padding:0;
+    }
+    .box{
+        width:1000px;
+        height:1500px;
+        /* background-color: #ccc; */
+        margin:auto;
+    }
+    .box .header{
+        width:1000px;
+        height:100px;
+        /* background-color:pink; */
+        margin:auto;
+        display: block;
+    }
+    .box .header .header1{
+        float: left;
+        width:270px;
+        height:100px;
+    }
+    .box .header .header2{
+        width:240px;
+        height:40px;
+        float: right;
+        margin-top:38px;
+    }
+    .box .nav{
+        float:left;
+        width:1000px;
+        height:60px;
+        background-color: black;
+        color:#ccc;
+    }
+    .box .nav .nav1{
+        float:left;
+        padding-right:30px;
+        width:100px;
+        height:60px;
+        font-size:13px;
+        line-height:60px;
+        text-align: center;
+    }
+
+    .box .nav .nav2{
+        float:left;
+        padding-right:30px;
+        width:90px;
+        height:60px;
+        font-size:13px;
+        line-height:60px;
+        text-align: center;
+    }
+    .box .nav .nav3{
+        float:left;
+        padding-right:30px;
+        width:90px;
+        height:60px;
+        font-size:13px;
+        line-height:60px;
+        text-align: center;
+    }
+    .box .nav .nav4{
+        float:left;
+        padding-right:30px;
+        width:90px;
+        height:60px;
+        font-size:13px;
+        line-height:60px;
+        text-align: center;
+    }
+    .box .nav .nav5{
+        float:left;
+        padding-right:30px;
+        width:90px;
+        height:60px;
+        font-size:13px;
+        line-height:60px;
+        text-align: center;
+    }  
+     .box .nav .nav6{
+        float:left;
+        padding-right:30px;
+        width:90px;
+        height:60px;
+        font-size:13px;
+        line-height:60px;
+        text-align: center;
+    }
+    .box .nav .nav7{
+        float:left;
+        padding-right:30px;
+        width:90px;
+        height:60px;
+        font-size:13px;
+        line-height:60px;
+        /* background-color: yellow; */
+        text-align: center;
+    }
+    .box .nav .nav8{
+        float:left;
+        padding-right:30px;
+        width:100px;
+        height:60px;
+        font-size:13px;
+        line-height:60px;
+        /* background-color: yellow; */
+        text-align: center;
+    }
+    .box .banner{
+        width:1000px;
+        height:465px;
+        /* background-color:black; */
+        margin:auto;
+        background-image: url(../images/卧龙控股.png)
+    }
+    
+    .box .main1{
+        width:1000px;
+        height:245px;
+        background-color:#fff;
+        margin:auto; 
+    }
+    .box .main1 .box1 {
+        width:500px;
+        height:245px;
+        background-color: #fff;
+        overflow: hidden;
+        float: left;
+    }
+    .box .main1 .box1 .list{
+        float:left;
+        background-color: #fff;
+        width:334px;
+        height:100%;
+    }
+    .box .main1 .box1 .list1{
+        font-size:17px;
+        line-height: 10px;
+        margin-top:15px;
+        color:#2a2a2a;
+        text-indent:1em;
+    }
+    .box .main1 .box1 .list2 li{
+        font-size:11px;
+        line-height:7px;
+        color:#838383;
+        margin-top:23px;
+        list-style-position:inside;
+        text-indent:1em;
+    }
+    .box .main1 .box1  span{
+        float:right;
+        font-size:9px;
+        color:#969696;
+        line-height:24px;
+        margin-top:50px;
+    }
+    .box .main1 .box2{
+        float:left;
+        width:250px;
+        height:245px;
+        background-color: #ccc;
+    }
+    .box .main1 .box2 h2{
+        font-size:17px;
+        line-height: 17px;
+        margin-top:36px;
+        color:#191919;
+        text-indent:1em;
+    }
+    .box .main1 .box2 p{
+        font-size:12px;
+        margin-top:38px;
+        color:#535353;
+        line-height: 24px;
+    }
+    .box .main1 .box2 span{
+        font-size:11px;
+        line-height:11px;
+        color:#636060;
+        margin-bottom:50px;
+    }
+    .box .main1 .box3{
+        width:250px;
+        height:245px;
+        /* background-color: pink; */
+        float:left;
+    }
+
+    .box .main1 .box3 .list1 h3{
+        font-size:17px;
+        line-height:17px;
+        margin-top:37px;
+        color: #3f3e3e;
+    }
+    .box .main1 .box3 .list1 p{
+        font-size:12px;
+        line-height:24px;
+        color:#575757;
+        margin-top:22px;
+}
+    .box .main1 .box3 .list2 .img1{
+        float:left;
+        width:70px;
+        height:20px;
+        margin-top:55px;
+        margin-left:33px;
+    }
+    .box .main1 .box3 .list2 .img2{
+        float:right;
+        width:80px;
+        height:110px;
+    }
+    .box .main2 {
+        width:1000px;
+        height:306px;
+        /* background-color:rgb(156, 182, 107); */
+        margin:auto;
+        overflow: hidden;
+    }
+    .box .main2 .box5{
+        margin: auto;
+        width:960px;
+        height:240px;
+        /* background-color: #ccc; */
+
+    }
+    .box .main2  .box5 .box1{
+        float:left;
+        width:215px;
+        height:240px;
+        /* background-color: pink; */
+        margin-right:32px;
+    }
+    .box .main2 .box5 .box2{
+        float:left;
+        width:215px;
+        height:240px;
+        /* background-color: pink; */
+        margin-right: 32px;
+        
+    }
+    .box .main2  .box5 .box3{
+        float:left;
+        width:215px;
+        height:240px;
+        /* background-color: pink; */
+        margin-right: 32px;
+        
+    } 
+    .box .main2 .box5  .box4{
+        float:left;
+        width:215px;
+        height:240px;
+        /* background-color: pink; */
+    }
+    .box .main2  .box5 h2{
+        font-size:18px;
+        line-height:18px;
+        margin-top:10px;
+        color:rgb(80, 78, 78);
+    }
+    .box .main2  .box5 .box1 img{
+        width:215px;
+        height:120px;
+        float:left;
+        margin-top:17px;
+    } 
+    .box .main2 .box5 .box1  p{
+        font-size:11px;
+        line-height:24px;
+        margin-top:20px;
+    } 
+
+    .box .main2  .box5 .box2 img{
+        width:215px;
+        height:120px;
+        float:left;
+        margin-top:17px;
+    }
+    .box .main2 .box5 .box2  p{
+        font-size:11px;
+        line-height:24px;
+        margin-top:20px;
+    } 
+
+    .box .main2  .box5 .box3 img{
+        width:215px;
+        height:120px;
+        float:left;
+        margin-top:17px;
+    }
+    .box .main2 .box5 .box3  p{
+        font-size:11px;
+        line-height:24px;
+        margin-top:20px;
+    }
+    .box .main2  .box5 .box4 img{
+        width:215px;
+        height:120px;
+        float:left;
+        margin-top:17px;
+    }
+    .box .main2 .box5 .box4  p{
+        font-size:11px;
+        line-height:24px;
+        margin-top:20px;
+    }
+
+    .box .main3{
+        width:1000px;
+        height:250px;
+        background-color:#ccc;
+        margin:auto;
+    }
+    .box .main3 .box1{
+        float:left;
+        width:500px;
+        height:250px;
+        /* background-color: pink; */
+        overflow: hidden;
+    } 
+    .box .main3 .box2{
+        float:left;
+        width:250px;
+        height:250px;
+        /* background-color: rgb(75, 45, 50); */
+    } 
+    .box .main3 .box3{
+        float:left;
+        width:250px;
+        height:250px;
+        /* background-color: rgb(240, 14, 51); */
+    } 
+    .box .main3 .box1 .ul1{
+        width:150px;
+        height:190px;
+        background-color: #ccc;
+        list-style-image: url(../images/卧龙控股-符号.png);
+        list-style-position: inside;
+        color:#686868;
+        font-size:11px;
+        line-height: 24px;
+        margin-top:14px;
+    }
+    .box .main3 .box1 .ul2{
+        width:150px;
+        height:190px;
+        background-color: palegreen;
+        list-style-image: url(../images/卧龙控股-符号.png);
+        list-style-position: inside;
+        color:#686868;
+        font-size:11px;
+        line-height: 24px;
+        margin-top:14px;
+    }
+    .box .main3 .box1 h2{
+        font-size:15px;
+        line-height:15px;
+        margin-top:32px;
+        color:#676767;
+    }
+    .box .main3 .box2 h2{
+        font-size:15px;
+        line-height:15px;
+        margin-top:32px;
+        color:#676767;
+    }
+    .box .main3 .box3 h2{
+        font-size:15px;
+        line-height:15px;
+        margin-top:32px;
+        color:#676767;
+    }
+    .box .main3 .box2 ul{
+        width:150px;
+        height:190px;
+        /* background-color: #ccc; */
+        list-style-image: url(../images/卧龙控股-符号.png);
+        list-style-position: inside;
+        color:#686868;
+        font-size:11px;
+        line-height: 24px;
+        margin-top:14px;
+    }
+    .box .main3 .box3 ul{
+        width:150px;
+        height:190px;
+        /* background-color: #ccc; */
+        list-style-image: url(../images/卧龙控股-符号.png);
+        list-style-position: inside;
+        color:#686868;
+        font-size:11px;
+        line-height: 24px;
+        margin-top:14px;
+    }
+    .box .footer{
+        width:1000px;
+        height:80px;
+        /* background-color:rgb(121, 84, 163); */
+        margin:auto;
+    }
+    .ff{
+        width:330px;
+        height:80px;
+        /* background-color: pink; */
+    }
+    .ff1,.ff2,.ff3,.ff4{
+        float:left;
+        /* border:1px solid red; */
+        width:80px;
+        height:22px;
+        font-size:12px;
+        color:#555151;
+        text-align:center;
+        margin:auto;
+        margin-top:30px;
+    }
+    .footer p{
+        float:right;
+        font-size:12px;
+        color:#555151;
+        text-align: center;
+        margin-top:-50px;
+    }
+</style>
+</head>
+<body>
+    <div class='box'>
+        <div class='header'>
+            <div class='header1'>
+                <img src="../images/卧龙控股1.png" alt="">
+            </div>
+            <div class='header2'>
+                <img src="../images/卧龙控股2.png" alt="">
+            </div>
+    </div>
+
+        <div class='nav'>
+            <div class='nav1'>集团介绍</div>
+            <div class='nav2'>产品中心</div>
+            <div class='nav3'>卧龙市场</div>
+            <div class='nav4'>技术研发</div>
+            <div class='nav5'>国际合作</div>
+            <div class='nav6'>投资者合作</div>
+            <div class='nav7'>新闻资讯</div>
+            <div class='nav8'>人力资源</div>
+        </div>
+
+        <div class='banner'> </div>
+        <div class='main1'>
+
+                <div class='box1'>
+                    <div class='list'>
+                       <h2 class='list1'>新闻资讯</h2>
+                       <ul class='list2'>
+                           <li>陈建成董事长出席ATB集团召开年度销售大会</li>
+                           <li>中国电器工业协会分马力电机分会在卧龙召开理事会...</li>
+                           <li>陈建成董事长访问中国驻德大使馆</li>
+                           <li>企业文化是企业持续经营的关键要素...</li>
+                           <li>陈建成监事董事长在ATB集团213年销售会议上发表重要...</li>
+                           <li>喜迎七一唱响卧龙年轻力量激发企业持久活力卧龙举...</li>
+                       </ul>
+                    </div>
+                        <span>
+                            2013-7-30 <br> 2013-7-30 <br> 2013-7-30 <br>2013-7-30 <br>
+                            2013-7-30 <br> 2013-7-30 <br> 2013-7-30 <br> 2013-7-30 <br>
+                        </span>
+                    </div>
+
+                  <div class='box2'>
+                       <h2>卧龙介绍</h2>
+                       <p>&nbsp;&nbsp;&nbsp;公司成立于1984年，<br>
+                        &nbsp;&nbsp;&nbsp;经过近30年的发展</p>
+                          <span>&nbsp;&nbsp;&nbsp;已成为电气制造房地产开发和金融<br>
+                            &nbsp;&nbsp;&nbsp;投资三业并举的综合性跨国...</span>
+                  </div>
+
+                  <div class='box3'>
+                      <div class='list1'>
+                          <h3>
+                                &nbsp;&nbsp;&nbsp;人才招聘
+                          </h3>
+                          <p>
+                              &nbsp;&nbsp;&nbsp;培养一流的人才，铸造一流的工程<br>
+                              &nbsp;&nbsp;&nbsp;实现员工与企业的共同发展
+                          </p>
+                      </div>
+                      <div class='list2'>
+                          <div class='img1'>
+                                <img src="../images/卧龙控股3.png" alt="">
+                          </div>
+                         <div class='img2'>
+                             <img src="../images/卧龙控股4.png" alt="">
+                         </div>
+                      </div>
+                  </div>
+                </div>
+
+        <div class='main2'>
+             <h2>卧龙市场</h2>
+             <div class='box5'>
+                    <div class='box1'>
+                            <img src="../images/卧龙控股5.png" alt="">
+                            <p>交通轨道：由于主要采用电气牵引，而<br>
+                               且轮轨摩擦阻力较小，与公共... </p>
+                       </div>
+           
+                       <div class='box2'>
+                            <img src="../images/卧龙控股6.png" alt="">
+                            <p>交通轨道：由于主要采用电气牵引，而<br>
+                               且轮轨摩擦阻力较小，与公共... </p>
+                       </div>
+                       
+
+                       <div class='box3'>
+                            <img src="../images/卧龙控股5.png" alt="">
+                            <p>交通轨道：由于主要采用电气牵引，而<br>
+                               且轮轨摩擦阻力较小，与公共... </p>
+                       </div>
+                       
+
+                       <div class='box4'>
+                            <img src="../images/卧龙控股6.png" alt="">
+                            <p>交通轨道：由于主要采用电气牵引，而<br>
+                               且轮轨摩擦阻力较小，与公共... </p>
+                       </div>
+                       
+                   </div>
+             </div>
+    
+        <div class='main3'>
+            <div class='box1'>
+                 <h2>产品中心</h2><br>
+                 <hr>
+                <div class='ul1'>
+                    <ul>
+                        <li>汽车电机</li>
+                        <li>日用电机</li>
+                        <li>特种电机</li>
+                        <li>大功率电机</li>
+                        <li>电工设备</li>
+                    </ul>
+                </div>
+                <div class='ul2'>
+                        <ul>
+                                <li>汽车电机</li>
+                                <li>日用电机</li>
+                                <li>特种电机</li>
+                                <li>大功率电机</li>
+                                <li>电工设备</li>
+                        </ul>
+                </div>
+               
+            </div>
+
+
+            <div class='box2'> 
+                <h2>技术研发</h2><br>
+                <hr>
+                <ul>
+                    <li>科技力量</li>
+                    <li>先进设备</li>
+                    <li>研发创新</li>
+                    <li>工艺流程</li>
+                </ul>
+
+            </div>
+
+            <div class='box3'>
+                    <div class='ul3'>
+                            <h2>网络营销</h2><br>
+                             <hr>
+                             <ul>
+                                    <li>汽车电机</li>
+                                    <li>日用电机</li>
+                                    <li>特种电机</li>
+                                    <li>大功率电机</li>
+                                    <li>电工设备</li>
+                             </ul>
+                        </div>
+            </div>
+        </div>
+        <div class='footer'>
+            <div class='ff'>    
+            <div class='ff1'>网站地图</div>
+            <div class='ff2'>联系我们</div>
+            <div class='ff3'>关注卧龙</div>
+            <div class='ff4'>采购系统</div>
+           </div>
+       
+            <p>COPYRIGHT&copy; 2013 卧龙控股集团 版权所有 浙ICP备</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
