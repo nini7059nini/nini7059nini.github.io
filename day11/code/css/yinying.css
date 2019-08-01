@@ -1,0 +1,31 @@
+*{
+    padding: 0;margin: 0;
+}
+#yinying{
+    width:320px;
+    height:35px;
+    margin:100px auto;
+    background-color: #ebe9ea;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    box-shadow: 1px 12px 10px 0px #acacac;
+}
+.list1{
+    float:left;
+    display:block;
+    margin-top: 5px;
+    margin-left: 24px;
+    width:200px;
+}
+.list2{
+    float: right;
+    display:block;
+    width:60px;
+    height:30px;
+    color:#fff;
+    font-size:18px;
+    line-height: 30;
+    text-align: center;
+    margin-right: 24px;
+    /* background-color: #1090a9; */
+}
