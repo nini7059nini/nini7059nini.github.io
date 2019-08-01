@@ -11,4 +11,4 @@
 <a href='https://nini7059nini.github.io/day11/code/html/系统管理.html'>系统管理</a>
 
 ## day13
-<a href='https://nini7059nini.github.io/day13/code/html/婚礼纪.html'>婚礼纪</a>
+<a href='https://nini7059nini.github.io/day13/html/%E5%A9%9A%E7%A4%BC%E7%BA%AA.html'>婚礼纪</a>
