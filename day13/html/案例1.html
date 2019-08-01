@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <style>
+      *{padding: 0;margin: 0;}
+      body,html{
+
+          height:100%;
+      }
+      .box{
+          height:100%;
+          flex-direction: column;
+          display: flex;
+          text-align: center;
+      }
+      .header,.footer{
+          height:100px;
+          width:100%;
+          line-height: 100px;
+          background-color: #ccc;
+      }
+      .main{
+         flex: 1; 
+         background-color: pink;
+         display: flex;
+         flex-direction: row;
+      }
+      nav{
+          width:80px;
+          background-color: #8fbad9;
+      }
+      aside{
+          width:80px;
+          background-color: #e46e51;
+      }
+      .main1{
+          flex: 1;
+      }
+    </style>
+</head>
+<body>
+<section class="box">
+    <header class="header">header</header>
+    <main class='main'>
+        <nav>nav</nav>
+        <section class="main1">main</section>
+        <aside>aside</aside>
+    </main>
+    <footer class="footer">footer</footer>
+
+</section>
+</body>
+</html>
