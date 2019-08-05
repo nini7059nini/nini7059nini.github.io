@@ -1,0 +1,114 @@
+body,html{
+    height: 100%;
+}
+#zhifubao{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#zhifubao{
+    .zfb-header{
+        height: 160px;
+        display: flex;
+        flex-direction: column;
+        background-color: #3f454f;
+
+        .list1{
+         display: flex;
+         flex: 1;
+         color:#fff;
+         align-items: center;
+         li{
+            flex: 1; 
+            i{
+                font-size: 20px;
+            }
+            span{
+                font-size: 12px;
+            }
+         }
+         li:nth-child(1){
+            flex:6;
+            padding-left: 15px;
+        }
+        }
+        .list2{
+            display: flex;
+            flex: 3;
+            align-items: center;
+            li{
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                i{
+                    color:#fff;
+                    font-size: 35px;
+                }
+                span{
+                    font-size: 15px;
+                    line-height: 15px;
+                    margin-top: 15px;
+                    color:#fff;
+                }
+            }
+        }
+    }
+    .zfb-main{
+        flex:1;
+        .list3{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            
+            li{
+                width: 93px;
+                height: 92px;
+                border-right: 1px solid #ccc;
+                border-bottom: 1px solid #ccc;
+                box-sizing: border-box;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                i{
+                font-size:25px;
+                }
+                span{
+                    font-size: 12px;
+                    line-height: 12px;
+                    margin-top: 13px;
+                }
+            }
+            li:nth-child(4n){
+                border-right:none;
+            }
+        }
+    }
+    .zfb-footer{
+        height: 50px;
+        // background-color: #3f454f;
+        .list2{
+            height: 100%;
+           display: flex;
+           li{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            i{
+                color:#ccc;
+                font-size: 22px;
+            }
+            span{
+                font-size: 10px;
+                line-height: 10px;
+                margin-top: 5px;
+                color:#808080;
+            }
+        }
+        }
+    }
+}

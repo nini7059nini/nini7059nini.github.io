@@ -1,0 +1,34 @@
+#fengqin{
+    width:744px;
+    height:341px;
+    background-color: #ccc;
+    margin: 100px auto;
+}
+.nav{
+    margin:auto;
+    line-height: 50px;
+    margin-top: 10px;
+    background-color: #ababab;
+}
+.nav a{
+    color:white; 
+    font-size: 17px; 
+    display: block;  
+}
+#list1,#list2,#list3{
+    width:100%; 
+    height:128px;
+    overflow: auto;
+    display:none;
+}
+.nav:hover{
+    background-color: #53a4f3;
+}
+p{
+    line-height: 22px;
+    font-size: 12px;
+}
+ p:target{
+    display: block;
+    background-color: #fff;
+}

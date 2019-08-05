@@ -1,0 +1,335 @@
+body,
+html {
+  height: 100%;
+}
+
+#allpyra {
+  width: 375px;
+  height: 2900px;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+}
+
+#allpyra .ap-header {
+  width: 100%;
+  display: flex;
+  height: 44px;
+  background-color: pink;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#allpyra .ap-header i {
+  font-size: 15px;
+  color: black;
+  padding: 0 13px 0 13px;
+}
+
+#allpyra .ap-header span {
+  display: block;
+}
+
+#allpyra .ap-header span img {
+  width: 120px;
+  height: 14px;
+}
+
+#allpyra main .main1 {
+  background-color: #fff;
+}
+
+#allpyra main .main1 img {
+  height: 210px;
+}
+
+#allpyra main .main1 .list1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+#allpyra main .main1 .list1 li {
+  display: flex;
+  flex-direction: column;
+}
+
+#allpyra main .main1 .list1 li img {
+  width: 40px;
+  height: 40px;
+  margin-top: 8px;
+}
+
+#allpyra main .main1 .list1 li span {
+  font-size: 8px;
+  line-height: 8px;
+  margin: 9px 0 9px 0;
+  color: black;
+}
+
+#allpyra main .main2 {
+  margin-top: 10px;
+  position: relative;
+}
+
+#allpyra main .main2 img {
+  height: 65px;
+}
+
+#allpyra main .main2 .text1 {
+  display: flex;
+  position: absolute;
+  top: 17px;
+  left: 95px;
+}
+
+#allpyra main .main2 .text1 p {
+  width: 20px;
+  height: 11px;
+  font-size: 8px;
+  line-height: 11px;
+  color: #c9bea0;
+  margin-right: 6px;
+  border: 1px solid #c9bea0;
+}
+
+#allpyra main .main2 .text1 h3 {
+  font-size: 10px;
+}
+
+#allpyra main .main2 .text2 {
+  display: flex;
+  position: absolute;
+  top: 44px;
+  left: 95px;
+}
+
+#allpyra main .main2 .text2 p {
+  width: 20px;
+  height: 11px;
+  font-size: 8px;
+  line-height: 11px;
+  color: #c9bea0;
+  margin-right: 6px;
+  border: 1px solid #c9bea0;
+}
+
+#allpyra main .main2 .text2 h3 {
+  font-size: 10px;
+}
+
+#allpyra main .main3 {
+  margin-top: 10px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#allpyra main .main3 img {
+  width: 350px;
+  height: 170px;
+}
+
+#allpyra main .main3 .list {
+  display: flex;
+  overflow: auto;
+  margin-top: 5px;
+  width: 350px;
+}
+
+#allpyra main .main3 .list .list3 {
+  width: 100px;
+}
+
+#allpyra main .main3 .list .list3 img {
+  width: 100px;
+  height: 100px;
+}
+
+#allpyra main .main3 .list .list3 .list3-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+#allpyra main .main3 .list .list3 .list3-1 span {
+  font-size: 6px;
+  line-height: 11px;
+  margin-top: 14px;
+}
+
+#allpyra main .main3 .list .list3 .list3-1 h3 {
+  font-size: 8px;
+  line-height: 8px;
+  font-weight: 700;
+  margin-top: 12px;
+}
+
+#allpyra main .main4 {
+  margin-top: 10px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 5px 20px 0 #ccc;
+}
+
+#allpyra main .main4 img {
+  width: 350px;
+  height: 170px;
+}
+
+#allpyra main .main4 .list {
+  display: flex;
+  overflow: auto;
+  margin-top: 5px;
+  width: 350px;
+}
+
+#allpyra main .main4 .list .list4 {
+  width: 100px;
+}
+
+#allpyra main .main4 .list .list4 img {
+  width: 100px;
+  height: 100px;
+}
+
+#allpyra main .main4 .list .list4 .list4-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+#allpyra main .main4 .list .list4 .list4-1 span {
+  font-size: 6px;
+  line-height: 11px;
+  margin-top: 14px;
+}
+
+#allpyra main .main4 .list .list4 .list4-1 h3 {
+  font-size: 8px;
+  line-height: 8px;
+  font-weight: 700;
+  margin-top: 12px;
+}
+
+#allpyra main .main4 .text {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#allpyra main .main4 .text h2 {
+  font-size: 12px;
+  line-height: 12px;
+  margin-top: 33px;
+  letter-spacing: 23px;
+}
+
+#allpyra main .main4 .text h3 {
+  font-size: 7px;
+  line-height: 7px;
+  margin-top: 6px;
+}
+
+#allpyra main .main5 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#allpyra main .main5 li {
+  width: 162px;
+  height: 223px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+#allpyra main .main5 li img {
+  height: 142px;
+  width: 162px;
+}
+
+#allpyra main .main5 li p {
+  font-size: 8px;
+  line-height: 15px;
+  margin-top: 22px;
+}
+
+#allpyra main .main5 li .span .span1 {
+  font-size: 10px;
+  color: #ff4a7d;
+  font-weight: 700;
+  padding-right: 70px;
+}
+
+#allpyra main .main5 li .span .span2 {
+  font-size: 10px;
+  color: #ccc;
+}
+
+#allpyra .ap-footer {
+  height: 75px;
+  width: 375px;
+  margin-top: 15px;
+  background-color: #fff;
+}
+
+#allpyra .ap-footer ul {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+
+#allpyra .ap-footer ul li a {
+  color: #ccc;
+}
+
+#allpyra .ap-footer ul li .hei {
+  display: none;
+}
+
+#allpyra .ap-footer ul li .hei .hei1 {
+  position: absolute;
+  top: 0;
+  left: 33px;
+}
+
+#allpyra .ap-footer ul li .hei .hei2 {
+  position: absolute;
+  top: 0;
+  left: 125px;
+}
+
+#allpyra .ap-footer ul li .hei .hei3 {
+  position: absolute;
+  top: 0;
+  right: 135px;
+}
+
+#allpyra .ap-footer ul li .hei .hei4 {
+  position: absolute;
+  top: 0;
+  right: 33px;
+}
+
+#allpyra .ap-footer ul li img {
+  height: 25px;
+  width: 25px;
+}
+
+#allpyra .ap-footer ul li p {
+  font-size: 11px;
+}
+
+#allpyra .ap-footer ul li:hover .hui {
+  color: black;
+}
+
+#allpyra .ap-footer ul li:hover .hei {
+  display: inline-block;
+}
