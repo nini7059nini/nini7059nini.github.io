@@ -22,5 +22,5 @@
 <a href='https://nini7059nini.github.io/day14/code/html/allpyra.html'>allpyra</a>
 
 ## day15
-<a href='https://nini7059nini.github.io/day14/code/html/发现.html'>发现</a>
-<a href='https://nini7059nini.github.io/day14/code/html/饿了么.html'>饿了么</a>
+<a href='https://nini7059nini.github.io/day15/code/html/发现.html'>发现</a>
+<a href='https://nini7059nini.github.io/day15/code/html/饿了么.html'>饿了么</a>
