@@ -24,3 +24,12 @@
 ## day15
 <a href='https://nini7059nini.github.io/day15/code/html/发现.html'>发现</a>
 <a href='https://nini7059nini.github.io/day15/code/html/饿了么.html'>饿了么</a>
+
+## day16
+<a href='https://nini7059nini.github.io/day16/code/html/婚礼纪.html'>婚礼纪</a>
+<a href='https://nini7059nini.github.io/day16/code/html/360bg.html'>头部案例</a>
+
+## day17
+<a href='https://nini7059nini.github.io/day17/code/html/旅游攻略.html'>旅游攻略</a>
+<a href='https://nini7059nini.github.io/day17/code/html/立方体.html'>立方体</a>
+<a href='https://nini7059nini.github.io/day17/code/html/球体.html'>球体</a>

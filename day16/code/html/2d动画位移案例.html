@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <style>
+         div{
+             width: 200px;
+             height: 200px;
+             background-color: blue;
+             position: relative;
+            
+
+         }
+         div img{
+            position: absolute;
+            top:50%;
+            left:50%;
+            opacity: 0;
+            transition: transform 1s,opacity 1s;
+            /* transform:translate(-50%,-50%); */
+         }
+         div img:nth-child(1){
+            transform: translate(-190%,-50%);
+         }
+         div img:nth-child(2){
+            transform: translate(200%,-50%);
+         }
+         div:hover  img{
+            transform:translate(-50%,-50%); 
+            opacity: 1;
+         }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="../images/i5.png" alt="">
+        <img src="../images/i6.png" alt="">
+    </div>
+</body>
+</html>
