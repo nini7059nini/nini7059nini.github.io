@@ -13,7 +13,7 @@
 <a href='https://nini7059nini.github.io/day12/code/html/捜石网.html'>捜石网</a>
 
 ## day13
-<a href='https://nini7059nini.github.io/day13/html/%E5%A9%9A%E7%A4%BC%E7%BA%AA.html'>婚礼纪</a>
+<a href='https://nini7059nini.github.io/day13/html/婚礼纪.html'>婚礼纪</a>
 
 
 ## day14
@@ -33,3 +33,7 @@
 <a href='https://nini7059nini.github.io/day17/code/html/旅游攻略.html'>旅游攻略</a>
 <a href='https://nini7059nini.github.io/day17/code/html/立方体.html'>立方体</a>
 <a href='https://nini7059nini.github.io/day17/code/html/球体.html'>球体</a>
+
+## 一阶段考试
+<a href='https://nini7059nini.github.io/一阶段考试/code/html/pc端.html'>PC端</a>
+<a href='https://nini7059nini.github.io/一阶段考试/code/html/移动端.html'>移动端</a>
