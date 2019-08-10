@@ -33,3 +33,7 @@
 <a href='https://nini7059nini.github.io/day17/code/html/旅游攻略.html'>旅游攻略</a>
 <a href='https://nini7059nini.github.io/day17/code/html/立方体.html'>立方体</a>
 <a href='https://nini7059nini.github.io/day17/code/html/球体.html'>球体</a>
+
+##一阶段考试
+<a href='https://nini7059nini.github.io/一阶段考试/code/html/PC端.html'>PC端</a>
+<a href='https://nini7059nini.github.io/一阶段考试/code/html/移动端.html'>移动端</a>
