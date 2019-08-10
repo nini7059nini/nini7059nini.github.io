@@ -13,7 +13,7 @@
 <a href='https://nini7059nini.github.io/day12/code/html/捜石网.html'>捜石网</a>
 
 ## day13
-<a href='https://nini7059nini.github.io/day13/html/%E5%A9%9A%E7%A4%BC%E7%BA%AA.html'>婚礼纪</a>
+<a href='https://nini7059nini.github.io/day13/html/婚礼纪.html'>婚礼纪</a>
 
 
 ## day14
