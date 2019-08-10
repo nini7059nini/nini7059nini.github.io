@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <style>
+     *{
+         padding: 0;
+         margin: 0;
+         list-style: none;
+         border:0;
+     }
+     body{
+         background-color: #000;
+     }
+     .ball{
+         width: 300px;
+         height: 300px;
+         position: absolute;
+         top:0;
+         bottom:0;
+         left:0;
+         right:0;
+         margin: auto;
+         perspective: 1000px;
+         transform-style: preserve-3d;
+         transform: rotateX(-30deg) rotateY(-30deg);
+         animation: move 10s linear infinite;
+     }
+     @keyframes move{
+         to{
+            transform: rotateX(-30deg) rotateY(-30deg)
+         }
+         from{
+            transform: rotateX(-20deg) rotateY(360deg)
+         }
+     }
+     .ball li{
+         height:100%;
+         width:100%;
+         position: absolute;
+         top:0;
+         left:0;
+         border: 1px solid gold;
+         border-radius: 50%;
+     }
+     li:nth-child(1){
+         transform: rotateY(0);
+     }
+     li:nth-child(2){
+         transform: rotateY(60deg);
+     }
+     li:nth-child(3){
+         transform: rotateY(90deg);
+     }
+     li:nth-child(4){
+         transform: rotateY(120deg);
+     }
+     li:nth-child(5){
+         transform: rotateY(360deg);
+     }
+    </style>
+</head>
+<body>
+        <ul  class="ball">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        ul li {
+            list-style: none;
+        }
+
+        ul {
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+            transform-style: preserve-3d;
+            transform: rotateX(-20deg) rotateY(-20deg);
+            animation: move 5s linear infinite;
+        }
+
+        body {
+            background-color: #000;
+        }
+
+        ul li {
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0.9;
+            font-size: 100px;
+            text-align: center;
+            line-height: 300px;
+            box-shadow: 0 0 8vh 0 currentColor;
+        }
+
+        li img {
+            width: 300px;
+            height: 300px;
+        }
+
+        li:nth-child(1) {
+            color: pink;
+            transform: translatez(150px);
+        }
+
+        li:nth-child(2) {
+            color: #58a;
+            transform: translatez(-150px);
+        }
+
+        li:nth-child(3) {
+            color: yellowgreen;
+            transform: translateX(150px) rotateY(90deg);
+        }
+
+        li:nth-child(4) {
+            color: rgb(192, 34, 197);
+            transform: translateX(-150px) rotateY(90deg);
+        }
+
+        li:nth-child(5) {
+            color: rgb(12, 44, 190);
+            transform: translateY(150px) rotateX(90deg);
+        }
+
+        li:nth-child(6) {
+            color: rgb(218, 24, 56);
+            transform: translatey(-150px) rotateX(90deg);
+        }
+
+        ul:hover li {
+            background: currentColor;
+        }
+
+        @keyframes move {
+            to {
+                transform: rotateX(-20deg) rotateY(-20deg);
+            }
+
+            from {
+                transform: rotateX(-60deg) rotateY(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>
+            <img src="../images/6.jpg" alt="">
+        </li>
+        <li>
+            <img src="../images/2.jpg" alt="">
+        </li>
+        <li>
+            <img src="../images/5.jpg" alt="">
+        </li>
+        <li>
+            <img src="../images/3.jpg" alt="">
+        </li>
+        <li>
+            <!-- <img src="../images/1.jpg" alt=""> -->
+        </li>
+        <li>
+            <img src="../images/4.jpg" alt="">
+        </li>
+    </ul>
+
+</body>
+
+</html>
