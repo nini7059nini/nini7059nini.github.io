@@ -1,0 +1,55 @@
+<div id="header">
+        <div class="p1">
+            <h2>奥特莱斯购物中心 </h2>
+            <div class=" header-hide">
+                <em>◆</em>
+                <ul class="hide-ul">
+                    <li>深圳华盛奥特莱斯</li>
+                    <li>南宁华盛奥特莱斯</li>
+                    <li>南昌华盛奥特莱斯</li>
+                    <li>西安华盛奥特莱斯</li>
+                    <li>郑州华盛奥特莱斯</li>
+                    <li>哈尔滨华盛奥特莱斯</li>
+                    <li>重庆华盛奥特莱斯</li>
+                    <li>合肥华盛奥特莱斯</li>
+                </ul>
+            </div>
+        </div>
+        <p class="p2">商家入驻</p>
+        <p class="p3">您好，欢迎来到奥莱购</p>
+        <p class="p4">请登录</p>
+        <p class="p5">免费注册</p>
+        <p class="p6"><i class="iconfont icon-gouwuche"></i>购物车<span>0</span></p>
+        <p class="p7">订单查询</p>
+        <p class="p8">我的收藏</p>
+        <p class="p9">帮助中心</p>
+    </div>
+<script>
+     //1. 拿到该用户 查看该用户是否已经登录 登录则显示退出  未登录的则显示登录
+     let header = document.getElementById('header');
+        console.log(header)
+        let p3 = header.getElementsByClassName('p3')[0];
+        function updata() {
+            let data = getCookie('name');
+            if (data) {
+                p3.innerHTML = data + '您好，欢迎来到奥莱购<a href="###" class="quit">退出</a>';
+            } else {
+                p3.innerHTML = '您好，欢迎来到奥莱购';
+            }
+        }
+        updata();
+
+        p3.onclick = ev => {
+            if (ev.target.innerHTML == '退出') {
+                //退出
+                alert('退出成功');
+                removeCookie('name');
+                removeCookie('url');
+            }
+            updata();
+        }
+
+     
+
+</script>
+  

@@ -1,0 +1,182 @@
+body,
+html {
+  height: 100%;
+}
+
+#goodCar {
+  height: 100%;
+  margin: 30px;
+}
+
+#goodCar .menu {
+  width: 1200px;
+  display: flex;
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+}
+
+#goodCar .menu .p1 {
+  margin-left: 81px;
+}
+
+#goodCar .menu .p2 {
+  margin-left: 466px;
+}
+
+#goodCar .menu .p3 {
+  margin-left: 107px;
+}
+
+#goodCar .menu .p4 {
+  margin-left: 140px;
+}
+
+#goodCar .menu .p5 {
+  margin-left: 147px;
+}
+
+#goodCar .data .list {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+#goodCar .data .list .con {
+  margin-top: 12px;
+  border: 1px solid #ccc;
+  background-color: #fcfcfc;
+}
+
+#goodCar .data .list .con .tex {
+  margin-top: 20px;
+  display: flex;
+  position: relative;
+}
+
+#goodCar .data .list .con .tex .img-box img {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+#goodCar .data .list .con .tex h2 {
+  font-size: 12px;
+  margin-left: 9px;
+}
+
+#goodCar .data .list .con .tex h2:hover {
+  color: #ff4400;
+  text-decoration: underline;
+}
+
+#goodCar .data .list .con .tex h3 {
+  margin-left: 52px;
+  font-size: 12px;
+  color: #9c9c9c;
+}
+
+#goodCar .data .list .con .tex h4 {
+  position: absolute;
+  top: 0px;
+  right: 503px;
+}
+
+#goodCar .data .list .con .tex span {
+  border: 1px solid #e5e5e5;
+  display: flex;
+  height: 23px;
+  position: absolute;
+  top: 0px;
+  right: 338px;
+  box-sizing: border-box;
+}
+
+#goodCar .data .list .con .tex span p {
+  width: 17px;
+  cursor: pointer;
+  text-align: center;
+  background-color: #f0f0f0;
+  user-select: none;
+  
+}
+
+#goodCar .data .list .con .tex span input {
+  width: 40px;
+  text-align: center;
+  border: 1px solid #000;
+}
+
+#goodCar .data .list .con .tex .xiangou {
+  font-size: 12px;
+  line-height: 23px;
+  user-select: none;
+  position: absolute;
+  top: 0px;
+  right: 279px;
+}
+
+#goodCar .data .list .con .tex h5 {
+  color: #ff4400;
+  position: absolute;
+  top: 0px;
+  right: 196px;
+  font-weight: 700;
+}
+
+#goodCar .data .list .con .tex h6 {
+  position: absolute;
+  top: 0px;
+  right: 29px;
+}
+
+#goodCar .data .list .con .tex h6 a {
+  color: #000;
+  font-size: 12px;
+}
+
+#goodCar .data .list .con .tex h6 a:hover {
+  color: #ff4400;
+  text-decoration: underline;
+}
+
+#goodCar .bottom {
+  height: 48px;
+  display: flex;
+  line-height: 48px;
+  justify-content: space-around;
+  background-color: #e5e5e5;
+  position: relative;
+}
+
+#goodCar .bottom .p1 {
+  cursor: pointer;
+  user-select: none;
+  
+}
+
+#goodCar .bottom .p2 span {
+  color: #ff4400;
+  font-weight: 700;
+}
+
+#goodCar .bottom .p3 span {
+  color: #ff4400;
+  font-weight: 700;
+  margin-right: 100px;
+}
+
+#goodCar .bottom .p4 {
+  width: 150px;
+  color: #fff;
+  cursor: no-drop;
+  text-align: center;
+  background-color: #b0b0b0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#goodCar .bottom .active {
+  cursor: pointer;
+  background-color: #ff4400;
+}

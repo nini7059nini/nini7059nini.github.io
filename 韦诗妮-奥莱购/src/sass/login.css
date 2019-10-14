@@ -1,0 +1,342 @@
+body,
+html {
+  height: 100%;
+}
+
+#box {
+  height: 100%;
+}
+
+#box header .header {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  height: 120px;
+  justify-content: space-between;
+}
+
+#box header .header .header-img {
+  margin-top: 35px;
+  width: 192px;
+  height: 74px;
+}
+
+#box header .header .header-list {
+  margin-top: 30px;
+  height: 112px;
+}
+
+#box header .header .header-list .header-ul {
+  display: flex;
+  margin-left: 50px;
+}
+
+#box header .header .header-list .header-ul li {
+  width: 240px;
+  display: flex;
+}
+
+#box header .header .header-list .header-ul li img {
+  width: 62px;
+  height: 62px;
+}
+
+#box header .header .header-list .header-ul li .header-con {
+  margin: 10px 0 0 10px;
+}
+
+#box header .header .header-list .header-ul li .header-con h2 {
+  font-size: 18px;
+  color: #d61518;
+}
+
+#box header .header .header-list .header-ul li .header-con h3 {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+#box main {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#box main .main {
+  display: flex;
+}
+
+#box main .main .main-form {
+  width: 340px;
+  height: 410px;
+  background: #fff;
+  border: 1px solid #d0d0d0;
+  margin-top: 50px;
+  margin-left: 172px;
+}
+
+#box main .main .main-form .inf {
+  line-height: 30px;
+  height: 30px;
+  width: 100%;
+  color: #fff;
+  margin: auto;
+  margin-left: 45px;
+  font-size: 10px;
+}
+
+#box main .main .main-form .main-header {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+#box main .main .main-form .main-header h2 {
+  font-size: 13px;
+  color: #FF7800;
+  margin-top: 10px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+#box main .main .main-form .main-header img {
+  width: 60px;
+  height: 60px;
+  margin-left: 196px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+#box main .main .main-form .main-header #login2 {
+  position: absolute;
+  top: 0;
+  right: 11px;
+  display: none;
+}
+
+#box main .main .main-form .main-header .hide {
+  position: absolute;
+  display: none;
+  z-index: 100;
+  width: 100%;
+  top: 67px;
+  left: 0;
+  background-color: #fff;
+}
+
+#box main .main .main-form .main-header .hide img {
+  width: 170px;
+  height: 170px;
+  margin-top: 20px;
+  margin-left: 90px;
+}
+
+#box main .main .main-form .main-header .hide .tubiao {
+  display: flex;
+  margin-left: 70px;
+  width: 240px;
+  margin-top: 10px;
+}
+
+#box main .main .main-form .main-header .hide .tubiao i {
+  font-size: 40px;
+  color: #C81417;
+}
+
+#box main .main .main-form .main-header .hide .tubiao h5 {
+  font-size: 12px;
+  margin-left: 40px;
+}
+
+#box main .main .main-form .main-header .hide .tubiao h5 span {
+  color: #FF7800;
+}
+
+#box main .main .main-form .main-name {
+  margin-left: 45px;
+  position: relative;
+}
+
+#box main .main .main-form .main-name i {
+  color: #e6e6e6;
+  font-size: 20px;
+  position: absolute;
+  top: 8px;
+  left: 7px;
+}
+
+#box main .main .main-form .main-name #username {
+  border-radius: 10px;
+  outline: 0;
+  line-height: 40px;
+  height: 40px;
+  width: 242px;
+  border: 1px solid #ccc;
+}
+
+#box main .main .main-form .main-psw {
+  margin-top: 5px;
+  margin-left: 45px;
+  position: relative;
+}
+
+#box main .main .main-form .main-psw i {
+  color: #e6e6e6;
+  font-size: 20px;
+  position: absolute;
+  top: 8px;
+  left: 7px;
+}
+
+#box main .main .main-form .main-psw #password {
+  border-radius: 10px;
+  outline: 0;
+  line-height: 40px;
+  height: 40px;
+  width: 242px;
+  border: 1px solid #ccc;
+}
+
+#box main .main .main-form h3 {
+  display: flex;
+  font-size: 12px;
+  color: #a7a7a7;
+  height: 40px;
+  margin-left: 45px;
+}
+
+#box main .main .main-form h3 input {
+  margin-right: 10px;
+  cursor: default;
+}
+
+#box main .main .main-form h3 #check {
+  margin-top: 3px;
+}
+
+#box main .main .main-form h3 span {
+  margin-left: 117px;
+}
+
+#box main .main .main-form h3 span:hover {
+  color: #FF7800;
+  cursor: pointer;
+}
+
+#box main .main .main-form .login {
+  background: #C81417;
+  color: #FFF;
+  width: 245px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+  border-radius: 5px;
+  text-align: center;
+  display: block;
+  padding: 5px 0;
+  border: none;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+#box main .main .main-form .login:hover {
+  background-color: #77090b;
+  transition: all 0.6s;
+}
+
+#box main .main .main-form h4 {
+  font-size: 12px;
+  color: #a7a7a7;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#box main .main .main-form .main-bottom {
+  display: flex;
+  margin-left: 40px;
+}
+
+#box main .main .main-form .main-bottom .main-bottom-text:nth-child(1) {
+  cursor: pointer;
+  margin-left: 73px;
+  margin-top: 7px;
+}
+
+#box main .main .main-form .main-bottom .main-bottom-text:nth-child(1) i {
+  color: #55abe3;
+  font-size: 35px;
+  margin-left: 5px;
+}
+
+#box main .main .main-form .main-bottom .main-bottom-text:nth-child(2) {
+  cursor: pointer;
+  margin-left: 32px;
+  margin-top: 7px;
+}
+
+#box main .main .main-form .main-bottom .main-bottom-text:nth-child(2) i {
+  color: #12cd6d;
+  font-size: 35px;
+  margin-left: 5px;
+}
+
+#box main .main .main-form .main-bottom .main-bottom-text h5 {
+  font-size: 12px;
+  color: #a7a7a7;
+  text-align: center;
+}
+
+#box footer .footer {
+  width: 1200px;
+  margin-top: 40px;
+  margin-left: 50px;
+  font-size: 12px;
+  color: #666666;
+}
+
+#box footer .footer .footer-ul {
+  display: flex;
+  margin-left: 300px;
+}
+
+#box footer .footer .footer-ul a {
+  font-size: 12px;
+  color: #666666;
+}
+
+#box footer .footer .footer-ul a:hover {
+  color: #c81417;
+}
+
+#box footer .footer .footer-ul li:nth-child(2n) {
+  height: 12px;
+  margin-left: 10px;
+}
+
+#box footer .footer .footer-ul li:nth-child(2n+1) {
+  margin-left: 10px;
+}
+
+#box footer .footer h2 {
+  margin-top: 15px;
+  margin-left: 335px;
+}
+
+#box footer .footer h3 {
+  margin-top: 15px;
+  margin-left: 362px;
+}
+
+#box footer .footer h4 {
+  margin-left: 468px;
+  margin-top: 15px;
+}
+
+#box footer .footer .footer-img {
+  width: 874px;
+  margin-left: 190px;
+  margin-top: 15px;
+}
+
+#box footer .footer .footer-img img {
+  width: 874px;
+  height: 40px;
+}

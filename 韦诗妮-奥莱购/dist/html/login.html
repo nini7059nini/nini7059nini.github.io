@@ -1,0 +1,110 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="X-UA-Compatible" content="ie=edge"><title>登录页</title><link rel="stylesheet" href="../css/base.css"><link rel="stylesheet" href="../sass/login.css"><link rel="stylesheet" href="../sass/main.css"><link rel="stylesheet" href="../css/img/iconfont/iconfont.css"></head><body><div id="box"><header></header><main><div class="main"><div class="main-img"><img src="../img/login.jpg" alt=""></div><div class="main-form" id="form"><div class="main-header"><h2 id="zhuce">立即注册</h2><img src="../css/img/login1.png" alt="" id="login1"> <img src="../css/img/login2.png" alt="" id="login2"><div class="hide"><img src="../css/img/qrcode.jpg" alt=""> <span class="tubiao"><i class="iconfont icon-saoyisaoerweimasaomasaomiao"></i><h5>打开<span>最新版</span>手机奥莱购<br>扫一扫登录</h5></span><h4>无需注册，直接登录</h4><div class="main-bottom"><span class="main-bottom-text"><i class="iconfont icon-qq"></i><h5>QQ登录</h5></span><span class="main-bottom-text"><i class="iconfont icon-weixin1"></i><h5>微信登录</h5></span></div></div></div><div class="main-name"><input type="text" id="username" autocomplete="off" placeholder=" &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;请输入用户名"></div><div class="inf">请输入邮箱/手机号</div><div class="main-psw"><input type="text" id="password" placeholder=" &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;请输入密码"></div><div class="inf">1</div><h3><input type="checkbox" id="check">记住密码 <span>忘记密码？</span></h3><p class="login" id="login">登录</p><h4>无需注册，直接登录</h4><div class="main-bottom"><span class="main-bottom-text"><i class="iconfont icon-qq"></i><h5>QQ登录</h5></span><span class="main-bottom-text"><i class="iconfont icon-weixin1"></i><h5>微信登录</h5></span></div></div></div></main><footer></footer></div></body><script src="../js/common.js"></script><script src="../js/jquery-1.10.1.min.js"></script><script>(() => {
+        //点击二维码 登录页改变
+        let login1 = document.getElementById('login1');
+        let login2 = document.getElementById('login2');
+        let hide = document.getElementsByClassName('hide')[0];
+
+        login1.onclick = () => {
+            login2.style.display = 'block';
+            hide.style.display = 'block';
+        }
+
+        login2.onclick = () => {
+            login2.style.display = 'none';
+            hide.style.display = 'none';
+        }
+
+        //模块化
+        $('footer').load('login_footer.html');
+        $('header').load('login_header.html');
+
+        //点击注册跳转到注册页
+        let zhuce = document.getElementById('zhuce');
+        zhuce.onclick = () => {
+            location.href = 'zhuce.html';
+        }
+
+        //1.点击登陆跳转到首页 
+        let form = document.getElementById('form');
+        let mail = document.getElementById('username');
+        let psw = document.getElementById('password');
+        let btn = document.getElementById('login');
+        let infs = document.querySelectorAll('#form .inf');//所有提示信息
+        let ainputs = document.querySelectorAll('#form input');
+
+
+        checkInput({
+            ele: ainputs[1],
+            inf: infs[1],
+            type: 'password',
+            noval: '请输入密码',
+            checkYes: '',
+            checkNo: '(密码以字母开头，长度在6~18之间，只能包含字母、数字和下划线)'
+        });
+
+
+
+
+        //判断是否已经登录  未登录：存该用户 并跳转到首页或者上一页
+        mail.onblur = () => {
+
+            ajax({
+                type: 'post',
+                url: '../api/01checkedName.php',
+                data: {
+                    iname: mail.value.trim(),
+                },
+
+                success: str => {
+                    if (str == 'yes') {
+                        infs[0].innerHTML = '该用户不存在！';
+                        infs[0].style.color = 'red';
+                    } else {
+                        infs[0].innerHTML = '欢迎！';
+                        infs[0].style.color = '#58bc58';
+                    }
+                }
+            });
+        }
+
+        btn.onclick = () => {
+            let name = mail.value.trim();
+            let password = psw.value.trim();
+            let usn = getCookie('name'); //从cookie拿数据
+            console.log(usn)
+            if (usn) {
+                //已登录
+                alert('你已经登录！');
+            } else {
+                //未登录
+                ajax({
+                    type: 'post',
+                    url: '../api/03denglu.php',
+                    data: {
+                        name,
+                        password,
+                        // type:'denglu'
+                    },
+                    success: str => {
+                        console.log(str);
+                        if (str == 'no') {
+                            alert('登录成功');
+                            setCookie('name', mail.value.trim(), 10); //新用户则存入cookie
+                            let url = getCookie('url');
+                            if (url) {
+                                //查找，证明是有上一页，登陆成功一律回到上一页
+                                location.href = url;
+                            } else {
+                                //注册页、首页、登陆页跳到登陆页的，登陆成功一律回到首页
+                                location.href = '../main.html';
+                            }
+                        } else {
+                            alert('注册失败');
+
+                        }
+                    }
+                });
+            }
+        }
+
+    })();</script></html>

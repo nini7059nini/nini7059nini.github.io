@@ -1,0 +1,238 @@
+html,
+body {
+  height: 100%;
+}
+
+main .main-zhuce {
+  display: flex;
+  justify-content: space-between;
+}
+
+main .main-zhuce img {
+  width: 673px;
+  height: 500px;
+  overflow: hidden;
+}
+
+main .main-zhuce form {
+  width: 350px;
+  border: 1px solid #d0d0d0;
+  margin-top: 30px;
+  background: #fff;
+}
+
+main .main-zhuce form .form-header {
+  background: #f5f5f5;
+  height: 50px;
+  border-bottom: 1px solid #f0f0f0;
+  line-height: 50px;
+  overflow: hidden;
+  display: flex;
+}
+
+main .main-zhuce form .form-header h2 {
+  color: #666;
+  margin-left: 20px;
+  font-size: 13px;
+}
+
+main .main-zhuce form .form-header h3 {
+  color: #ff7800;
+  font-size: 10px;
+  margin-left: 140px;
+  cursor: pointer;
+}
+
+main .main-zhuce form .form-main {
+  font-size: 12px;
+}
+
+main .main-zhuce form .form-main h2 {
+  width: 55px;
+  margin-left: 20px;
+  color: #666;
+  height: 35px;
+  line-height: 35px;
+}
+
+main .main-zhuce form .form-main p {
+  line-height: 15px;
+  height: 15px;
+  margin-left: 80px;
+}
+
+main .main-zhuce form .form-main .con1 {
+  display: flex;
+  margin-top: 13px;
+  position: relative;
+}
+
+main .main-zhuce form .form-main .con1 input {
+  width: 170px;
+  background-color: #fcfcfc;
+  height: 34px;
+  border: 1px solid #e6e6e6;
+  padding-right: 45px;
+  color: #666;
+  padding-left: 10px;
+  line-height: 35px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  outline: 0;
+}
+
+main .main-zhuce form .form-main .con1 i {
+  position: absolute;
+  top: 8px;
+  right: 56px;
+  color: #d0d0d0;
+  font-size: 20px;
+}
+
+main .main-zhuce form .form-main .con2 {
+  display: flex;
+  margin-top: 13px;
+  position: relative;
+}
+
+main .main-zhuce form .form-main .con2 input {
+  width: 170px;
+  background-color: #fcfcfc;
+  height: 34px;
+  border: 1px solid #e6e6e6;
+  padding-right: 45px;
+  color: #666;
+  padding-left: 10px;
+  line-height: 35px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  outline: 0;
+}
+
+main .main-zhuce form .form-main .con2 i {
+  position: absolute;
+  top: 8px;
+  right: 56px;
+  color: #d0d0d0;
+  font-size: 20px;
+}
+
+main .main-zhuce form .form-main .con3 {
+  display: flex;
+  margin-top: 13px;
+  position: relative;
+}
+
+main .main-zhuce form .form-main .con3 input {
+  width: 170px;
+  background-color: #fcfcfc;
+  height: 34px;
+  border: 1px solid #e6e6e6;
+  padding-right: 45px;
+  color: #666;
+  padding-left: 10px;
+  line-height: 35px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  outline: 0;
+}
+
+main .main-zhuce form .form-main .con3 i {
+  position: absolute;
+  top: 8px;
+  right: 56px;
+  color: #d0d0d0;
+  font-size: 20px;
+}
+
+main .main-zhuce form .form-main .con4 {
+  display: flex;
+  margin-top: 13px;
+  position: relative;
+}
+
+main .main-zhuce form .form-main .con4 input {
+  width: 100px;
+  background-color: #fcfcfc;
+  height: 34px;
+  border: 1px solid #e6e6e6;
+  padding-right: 45px;
+  color: #666;
+  padding-left: 10px;
+  line-height: 35px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  outline: 0;
+}
+
+main .main-zhuce form .form-main .con4 #yanzheng {
+  background-color: pink;
+  text-align: center;
+  margin-left: 5px;
+  font-size: 20px;
+  border: none;
+}
+
+main .main-zhuce form .form-main .con5 {
+  display: flex;
+  margin-top: 13px;
+  position: relative;
+}
+
+main .main-zhuce form .form-main .con5 input {
+  width: 100px;
+  background-color: #fcfcfc;
+  height: 34px;
+  border: 1px solid #e6e6e6;
+  padding-right: 45px;
+  color: #666;
+  padding-left: 10px;
+  line-height: 35px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  outline: 0;
+}
+
+main .main-zhuce form .form-main .con5 span {
+  width: 90px;
+  height: 35px;
+  line-height: 35px;
+  margin-left: 10px;
+  border: 1px solid #eaeaea;
+  float: right;
+  text-align: center;
+  color: #666;
+  background: #eaeaea;
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+main .main-zhuce form .form-main h5 {
+  width: 265px;
+  height: 40px;
+  display: block;
+  background: #C81417;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  font-weight: 700;
+  font-size: 14px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  margin: auto;
+  margin-top: 30px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+main .main-zhuce form .form-main h5:hover {
+  background-color: red;
+  transition: 0.5s;
+}
+
+main .main-zhuce form .form-main h6 {
+  text-align: right;
+  margin-top: 5px;
+}

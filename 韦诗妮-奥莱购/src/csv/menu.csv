@@ -1,0 +1,9 @@
+﻿uid,id,title,list,img
+1,1,时尚女装,连衣裙&外套&衬衫,../src/img/list-1.jpg
+2,2,品质男装,衬衫&T恤&裤装,../src/img/list-2.jpg
+3,3,运动户外,男运动服&女运动服,../src/img/list-3.jpg
+4,4,童装童鞋,男童装&女童装,../src/img/list-4.jpg
+5,5,内衣/袜子,文胸&内裤&睡衣,../src/img/list-5.jpg
+6,6,精品箱包,女包&男包&拉杠箱,../src/img/list-6.jpg
+7,7,品质鞋靴,女单鞋&男鞋,../src/img/list-7.jpg
+8,8,家居家纺,套件&被芯&被毯,../src/img/list-8.jpg
