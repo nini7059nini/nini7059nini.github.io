@@ -39,4 +39,4 @@
 <a href='https://nini7059nini.github.io/一阶段考试/code/html/移动端.html'>移动端</a>
 
 # 三阶段的项目
-<a href='https://nini7059nini.github.io/三阶段项目/美团'>美团</a>
+<a href='https://nini7059nini.github.io/三阶段项目/美团/'>美团</a>
