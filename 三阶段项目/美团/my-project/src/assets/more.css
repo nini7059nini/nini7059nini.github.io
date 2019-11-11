@@ -1,0 +1,120 @@
+.box {
+  background-color: #f8f5f5;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.login {
+  background-color: #fff;
+  height: 40px;
+  display: flex;
+  line-height: 40px;
+  padding-left: 10px;
+  font-size: 12px;
+}
+
+.login span {
+  color: #fff;
+  width: 75px;
+  height: 25px;
+  margin-left: 135px;
+  margin-top: 7px;
+  text-align: center;
+  line-height: 25px;
+  background-color: #fd5746;
+  border-radius: 16px;
+}
+
+.imgbox {
+  margin-top: 15px;
+  width: 300px;
+  height: 120px;
+  display: flex;
+  margin-left: 15px;
+}
+
+.imgbox .left {
+  height: 100px;
+}
+
+.imgbox .left img {
+  max-height: 104px;
+}
+
+.imgbox .right img {
+  display: block;
+  max-width: 146px;
+  max-height: 70px;
+}
+
+.main1 {
+  display: flex;
+}
+
+.main1 img {
+  max-width: 150px;
+}
+
+.main1 img:nth-child(2) {
+  margin-left: 20px;
+}
+
+.main2 {
+  background-color: #fff;
+  display: flex;
+}
+
+.main2 .left {
+  width: 50%;
+  border-right: 1px solid #ccc;
+}
+
+.main2 span {
+  display: flex;
+}
+
+.main2 span h5 {
+  font-size: 10px;
+  display: inline-block;
+  color: #fff;
+  border-radius: 10px;
+  vertical-align: text-bottom;
+  position: relative;
+  padding: 1px 3px;
+  margin-left: 12px;
+  margin-top: 10px;
+  background-color: #f0d98d;
+}
+
+.main2 span h6 {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-top: 10px;
+  max-width: 70px;
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+.main2 p {
+  color: #fd5746;
+  margin-top: 10px;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.main2 .duihuan {
+  width: 40px;
+  height: 20px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 20px;
+  padding-left: 15px;
+  border-radius: 10px;
+  margin-left: 80px;
+  color: #fd5746;
+  border: 1px solid #fd5746;
+}
